@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/webdev-noob/static/css/main.a5ef2a5e.css",
+    "main.js": "/webdev-noob/static/js/main.c3af2a73.js",
+    "static/js/787.fa1d7935.chunk.js": "/webdev-noob/static/js/787.fa1d7935.chunk.js",
+    "index.html": "/webdev-noob/index.html",
+    "main.a5ef2a5e.css.map": "/webdev-noob/static/css/main.a5ef2a5e.css.map",
+    "main.c3af2a73.js.map": "/webdev-noob/static/js/main.c3af2a73.js.map",
+    "787.fa1d7935.chunk.js.map": "/webdev-noob/static/js/787.fa1d7935.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5ef2a5e.css",
+    "static/js/main.c3af2a73.js"
+  ]
+}
