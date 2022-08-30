@@ -1,0 +1,13 @@
+#content {
+    border: 2px black solid;
+    width: 85%;
+}
+
+#main-content {
+    display: flex;
+}
+
+#toc {
+    border: 2px black solid;
+    width: 15%
+}
