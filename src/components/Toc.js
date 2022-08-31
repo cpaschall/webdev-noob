@@ -1,5 +1,4 @@
 import React from "react";
-// import Content from './Content'
 
 export default function Toc({ currentTopic, handlePageChange }) {
     return (
@@ -34,7 +33,6 @@ export default function Toc({ currentTopic, handlePageChange }) {
                     </a>
                 </li>
             </ul>
-
         </div>
     )
 }

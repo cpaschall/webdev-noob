@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import HtmlCss from '../pages/HtmlCss';
 import AdvCss from '../pages/AdvCss';
 import Javascript from '../pages/Javascript';
-// import Content from './Content'
-import Toc from './Toc'
+import Toc from './Toc';
+// import Header from './Header';
 
 export default function Body() {
     const [currentTopic, setCurrentTopic ] = useState('HtmlCss');
@@ -26,6 +26,7 @@ export default function Body() {
         <div id="main-content">
             <Toc currentTopic={currentTopic} handlePageChange={handlePageChange} />
             <div id="content">
+                {/* <Header /> */}
                 {renderTopic()}
             </div>
         </div>
