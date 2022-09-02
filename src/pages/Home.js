@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import HtmlCss from '../pages/HtmlCss';
-import AdvCss from '../pages/AdvCss';
-import Javascript from '../pages/Javascript';
-import Toc from './Toc';
+import HtmlCss from './HtmlCss';
+import AdvCss from './AdvCss';
+import Javascript from './Javascript';
+import Toc from '../components/Toc';
 // import Header from './Header';
 
-export default function Body() {
+export default function Home() {
     const [currentTopic, setCurrentTopic ] = useState('HtmlCss');
 
     const renderTopic = () => {
