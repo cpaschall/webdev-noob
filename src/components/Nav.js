@@ -13,7 +13,7 @@ export default function Navigate({ currentPage, handlePageChange }) {
                 <Navbar.Brand 
                     as={Link}
                     to="/"
-                    active={location.pathneame === "/"}
+                    active={location.pathname === "/"}
                 >
                     <img
                         alt=""
@@ -29,6 +29,7 @@ export default function Navigate({ currentPage, handlePageChange }) {
                         as={Link}
                         to="/"
                         active={location.pathname === "/"}
+                        // className="nav-link"
                     >
                         Home
                     </Nav.Link>
@@ -36,6 +37,7 @@ export default function Navigate({ currentPage, handlePageChange }) {
                         as={Link}
                         to="/about"
                         active={location.pathname === "/about"}
+                        // className="nav-link"
                     >
                         About
                     </Nav.Link>
@@ -43,6 +45,7 @@ export default function Navigate({ currentPage, handlePageChange }) {
                         as={Link}
                         to="/connect"
                         active={location.pathname === "/connect"}
+                        // className="nav-link"
                     >
                         Connect
                     </Nav.Link>
@@ -50,6 +53,7 @@ export default function Navigate({ currentPage, handlePageChange }) {
                         as={Link}
                         to="/contribute"
                         active={location.pathname === "/contribute"}
+                        // className="nav-link"
                     >
                         Contribute
                     </Nav.Link>
@@ -57,6 +61,7 @@ export default function Navigate({ currentPage, handlePageChange }) {
                         as={Link}
                         to="/projects"
                         active={location.pathname === "/projects"}
+                        // className="nav-link"
                     >
                         Projects
                     </Nav.Link>

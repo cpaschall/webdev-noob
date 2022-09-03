@@ -26,32 +26,32 @@ export default function Toc({ currentTopic, handlePageChange }) {
         // </Navbar>
         <div id="toc">
             <h3>Topics</h3>
-            <ul>
+            <ul id="topic-links">
                 <li>
                     <a
                         href="#html-css"
                         onClick={() => handlePageChange('HtmlCss')}
-                        className={currentTopic === 'HtmlCss' ? 'nav-link active' : 'nav-link'}
+                        className={currentTopic === 'HtmlCss' ? 'topic-link active' : 'topic-link'}
                     >
-                            <p>HTML/CSS</p>
+                        HTML/CSS
                     </a>
                 </li>
                 <li>
                     <a
                         href="#adv-css"
                         onClick={() => handlePageChange('AdvCss')}
-                        className={currentTopic === 'AdvCss' ? 'nav-link active' : 'nav-link'}
+                        className={currentTopic === 'AdvCss' ? 'topic-link active' : 'topic-link'}
                     >
-                            <p>Advanced CSS</p>
+                        Advanced CSS
                     </a>
                 </li>
                 <li>
                     <a
                         href="#javascript"
                         onClick={() => handlePageChange('Javascript')}
-                        className={currentTopic === 'Javascript' ? 'nav-link active' : 'nav-link'}
+                        className={currentTopic === 'Javascript' ? 'topic-link active' : 'topic-link'}
                     >
-                            <p>JavaScript</p>
+                        JavaScript
                     </a>
                 </li>
             </ul>
