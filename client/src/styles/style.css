@@ -1,0 +1,163 @@
+.contr-input {
+    width: 250px;
+}
+
+.nav-link.active {
+    color: #ffa62b;
+    border-bottom: 5px solid #ffa62b;
+}
+
+.foot-link {
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #ffa62b;
+}
+
+.nav-link {
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.navbar {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    background-color: #16697a;
+    height: 50px;
+    /* width: 100%; */
+}
+
+.navbar-nav {
+    /* display: flex; */
+    justify-content: space-between;
+    width: 50%;
+}
+
+.navbar .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+    /* margin: 0 2% */
+}
+
+.navbar-brand {
+    padding: 0 2%;
+}
+
+.navbar-nav {
+    /* display: flex; */
+    /* justify-content: space-around; */
+}
+
+.topic-link {
+    padding: 0 2%;
+    list-style-type: none;
+    /* background-color: #ffa62b; */
+}
+
+.topic-text {
+    text-decoration: none;
+    color: #16697a;
+}
+
+.topic-text.active {
+    /* border-bottom:#ffa62b solid 5px; */
+    color: #ffa62b;
+    background-color: #16697a;
+    /* border: black 2px solid; */
+    /* border-right:#ffa62b solid 5px; */
+}
+
+.category-link {
+    text-decoration: none;
+    color: #16697a;
+}
+
+.category-link.active{
+    text-decoration: none;
+    /* text-decoration: underline; */
+    color:#ffa62b;
+}
+
+/* .active {
+    color: red;
+} */
+
+#content {
+    border: 2px black solid;
+    width: 85%;
+    z-index: 2;
+}
+
+#content h3 {
+    /* justify-content: center; */
+    /* padding: 15% 0; */
+    /* width: 120%; */
+    text-align: center;
+    padding: 15% 0;
+}
+
+#contr-btn {
+    width: 150px;
+}
+
+#contr-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#foot-cont {
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    border: 1px black solid;
+}
+
+#foot-links {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+
+}
+
+#main-content {
+    display: flex;
+    /* height: 60vh; */
+}
+
+#topic-links {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#toc {
+    border: 2px black solid;
+    width: 150px;
+    /* height: vh; */
+}
+
+#toc h3 {
+    text-align: center;
+    text-decoration: underline;
+    /* height: 1000px; */
+}
+
+#category-links {
+    list-style: none;
+}
+
+#welcome {
+    background-color: #ede7e3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+#welcome h1 {
+    padding: 2%;
+    color: #16697a;
+}
