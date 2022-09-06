@@ -8,8 +8,6 @@ const topicSchema = new Schema({
     },
     subtopics: [
         {
-        // type: Schema.Types.ObjectId,
-        // ref: 'Subtopic'
             name: {
                 type: String,
                 required: true,

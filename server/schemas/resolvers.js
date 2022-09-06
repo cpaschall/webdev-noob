@@ -1,4 +1,4 @@
-const { Category, Topic } = require('../models');
+const { Category } = require('../models/Category');
 
 const resolvers = {
     Query: {
@@ -7,7 +7,7 @@ const resolvers = {
         },
 
         topics: async () => {
-            return Topic.find()
+            return Category.find().populate("topics")
         },
         // subtopics: async () => {
         //     return Topic.find().populate("subtopics")
@@ -17,19 +17,19 @@ const resolvers = {
         createCategory: async (parent, { name }) => {
             return Category.creaate({ name });
         },
-        addTopic: async (parent, { categoryId, name }) => {
+        addTopic: async (parent, { categoryId, topicName }) => {
             return Category.findOneAndUpdate(
                 { _id: categoryId },
                 { 
-                    $addToSet: { topics: { name }},
+                    $addToSet: { topics: { topicName }},
                 },
             );
         },
-        addSubtopic: async (parent, { topicId, name, info, image, link }) => {
-            return Topic.findOneAndUpdate(
+        addSubtopic: async (parent, { topicId, subtopicName, info, image, link }) => {
+            return Category.findOneAndUpdate(
                 { _id: topicId },
                 {
-                    $addToSet: { subtopics: { name, info, image, link }},
+                    $addToSet: { subtopics: { subtopicName, info, image, link }},
                 },
             );
         },

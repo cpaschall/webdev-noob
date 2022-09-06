@@ -6,10 +6,33 @@ const categorySchema = new Schema({
         required: true,
         unique: true
     },
-    topics: [{
-        type: Schema.Types.ObjectId,
-        ref: 'Topic'
-    }]
+    topics: [
+        {
+            topicName: {
+                type: String,
+                required: true,
+                unique: true
+            },
+            subtopics: [
+                {
+                    subtopicName: {
+                        type: String,
+                        required: true,
+                        unique: true
+                    },
+                    info: {
+                        type: String
+                    },
+                    image: {
+                        type: String
+                    },
+                    link: {
+                        type: String
+                    },
+                },
+            ],
+        }
+    ]
 });
 
 const Category = model('Category', categorySchema);

@@ -9,13 +9,13 @@ const typeDefs = gql`
 
     type Topic {
         _id: ID
-        name: String
+        topicName: String
         subtopics: [Subtopic]
     }
 
     type Subtopic {
         _id: ID
-        name: String
+        subtopicName: String
         info: String
         image: String
         link: String

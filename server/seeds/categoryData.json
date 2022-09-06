@@ -1,0 +1,45 @@
+[
+    {
+        "name": "HTML",
+        "topics": [
+            {
+                "topicName": "tags",
+                "subtopics": [
+                    {
+                        "subtopicName": "headings",
+                        "info": "Heading 1 - <h1></h1>",
+                        "image": "https://seranking.com/blog/wp-content/uploads/2019/08/Diagrammatic-Representation-of-Heading-Tag-Hierarchy.png",
+                        "link": "https://www.w3schools.com/html/html_headings.asp"
+                    }
+                ]
+            },
+            {
+                "topicName": "attributes",
+                "subtopics": [
+                    {
+                        "subtopicName": "href",
+                        "info": "Used in a tag to references a path to URL, file location or element ID",
+                        "image": "https://www.guru99.com/images/image002.png",
+                        "link": "https://www.w3schools.com/tags/att_a_href.asp"
+                     }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CSS",
+        "topics": [
+            {
+                "topicName": "colors",
+                "subtopics": [
+                    {
+                        "subtopicName": "text-color",
+                        "info": "color: red; OR color: rgb(255, 0, 0) OR color: #FF0000",
+                        "image": "https://cdn.educba.com/academy/wp-content/uploads/2020/03/CSS-Color-Codes.jpg",
+                        "link": "https://www.w3schools.com/cssref/css_colors.asp"
+                    }
+                ]
+            }
+        ]
+    }
+]
