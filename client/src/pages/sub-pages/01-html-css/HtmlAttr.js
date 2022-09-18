@@ -12,6 +12,7 @@ export default function HtmlAttr() {
                     </Card.Title>
                     <Card.Text>
                         Here is info about attribute 1
+                        
                     </Card.Text>
                 </Card.Body>
             </Card>
