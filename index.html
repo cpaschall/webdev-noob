@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>WDN</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <section class="html-section">
+            <div id="html-cmds">
+                <h1>Command Line</h1>
+                <p>The command line aka terminal is a text-based interface built into the computer's operating system.  It is a way to interact with the operating system using pre-defined keywords called commands</p>
+                <a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line#basic_built-in_terminal_commands">MDN Docs</a>
+                <ul>
+                    <li>'ls' lists the contents of the current file folder called a directory</li>
+                    <li>'cd' is used to change working (current) directory</li>
+                    <li>'cd ..' moves up one directory to the parent of the working directory</li>
+                    <li>'pwd' displays the current directory</li>
+                    <li>'mkdir' creates a new directory</li>
+                    <li>'touch' creates a file type.  the file extension must be used when making the file</li>
+                </ul>
+            </div>
+            <div id="html-git">
+                <h1>Git</h1>
+                <p>Git is a way to store code in a repository, which could be private or public.  Github is a popular website that allows programmer to store and share their code.</p>
+                <a href="https://github.com">Github</a>
+                <ol>
+                    <li>Click <span>'new'</span> to create a new repository</li>
+                    <li>Name the repository.  use dashes between words instead of spaces.  This make it easier when you have to call the repository in the command line</li>
+                    <li>Click the 'README' box to include a README file</li>
+                    <li>Click 'create repository'</li>
+                    <li>To add the repository locally to your machine, hit 'code' button and under clone, click copy under HTTPS.  A password protected method can be set up where the clone is copied as a SSH key</li>
+                    <li>Open a terminal on you machine and use 'cd' to change to the working directory where you want to store the repository locally</li>
+                    <li>use the command 'git clone' then paste the copied key from Github</li>
+                    <li>Now you can change to the directory and create directories and files uses commands</li>
+                    <li>To update changes made locally to git, use 'git add -A' to first add all changes</li>
+                    <li>Then use the command 'git commit -m "&ltmessage&gt"' This message should be a short description of the recent changes made to the program.</li>
+                    <li>The 'git push' will push the changes to the git repository (repo)</li>
+                    <li>To get updates from a repo not made locally, the command <span>'git pull orgin main'</span> is used</li>
+                </ol>
+            </div>
+
+        </section>
+        
+        <script src="" async defer></script>
+    </body>
+</html>
