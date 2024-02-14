@@ -1,0 +1,36 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: aliceblue;
+    background-color: black;
+}
+
+.boilerplateEx {
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.elTag {
+    color: grey;
+}
+
+.elName {
+    color:blue;
+}
+
+.elAttr {
+    color: cyan;
+}
+
+.elAttrText {
+    color: orange;
+}
+
+.lvlOneTab {
+    margin-left: 20px;
+}
+
+.lvlTwoTab {
+    margin-left: 40px;
+}

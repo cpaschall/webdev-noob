@@ -6,11 +6,14 @@
         <title>WDN</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-        <section class="html-section">
-            <div id="html-cmds">
+        <section class="htmlSection">
+            <div id="htmlCmds">
                 <h1>Command Line</h1>
                 <p>The command line aka terminal is a text-based interface built into the computer's operating system.  It is a way to interact with the operating system using pre-defined keywords called commands</p>
                 <a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line#basic_built-in_terminal_commands">MDN Docs</a>
@@ -23,10 +26,14 @@
                     <li>'touch' creates a file type.  the file extension must be used when making the file</li>
                 </ul>
             </div>
-            <div id="html-git">
+            <div id="htmlGit">
                 <h1>Git</h1>
                 <p>Git is a way to store code in a repository, which could be private or public.  Github is a popular website that allows programmer to store and share their code.</p>
                 <a href="https://github.com">Github</a>
+                <br>
+                <a href="https://docs.github.com/en/github/getting-started-with-github/create-a-repo">Creating a Repo</a>
+                <br>
+                <a href="https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository">Cloning a Repo</a>
                 <ol>
                     <li>Click <span>'new'</span> to create a new repository</li>
                     <li>Name the repository.  use dashes between words instead of spaces.  This make it easier when you have to call the repository in the command line</li>
@@ -41,6 +48,25 @@
                     <li>The 'git push' will push the changes to the git repository (repo)</li>
                     <li>To get updates from a repo not made locally, the command <span>'git pull orgin main'</span> is used</li>
                 </ol>
+            </div>
+            <div id="htmlStart">
+                <p>Boilerplate HTML is a template upon which HTML code is written.</p>
+                <br>
+                <div class="boilerplateEx">
+                    <span class="elTag">&lt!</span><span class="elName">DOCTYPE</span> <span class="elAttr">html</span><span class="elTag">&gt</span>
+                    <div><span class="elTag">&lt</span><span class="elName">html</span> <span class="elAttr">lang</span><span class="elEqual">=</span><span class="elAttrText">"en-US"</span><span class="elTag">&gt</span></div>
+                        <div class="lvlOneTab"><span class="elTag">&lt</span><span class="elName">head</span><span class="elTag">&gt</span></div>
+                            <div class="lvlTwoTab"><span class="elTag">&lt</span><span class="elName">meta</span> <span class="elAttr">charset</span><span class="elEqual">=</span><span class="elAttrText">"UTF-8"</span><span class="elTag">&gt</span>
+                            </div>
+                            <div class="lvlTwoTab"><span class="elTag">&lt</span><span class="elName">title</span><span class="elTag">&gt</span>Hello HTML!<span class="elTag">&lt/</span><span class="elName">title</span><span class="elTag">&gt</span>
+                            </div>
+                        <div class="lvlOneTab"><span class="elTag">&lt/</span><span class="elName">head</span><span class="elTag">&gt</span> </div>  
+                        <div class="lvlOneTab"><span class="elTag">&lt</span><span class="elName">body</span><span class="elTag">&gt</span></div>
+                        <br>
+                        <br>
+                        <div class="lvlOneTab"><span class="elTag">&lt/</span><span class="elName">body</span><span class="elTag">&gt</span></div>
+                    <div><span class="elTag">&lt/</span><span class="elName">html</span><span class="elTag">&gt</span></div>
+                </div>
             </div>
 
         </section>
