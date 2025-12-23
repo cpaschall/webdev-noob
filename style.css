@@ -1,22 +1,103 @@
 * {
-    font-family: "Montserrat", sans-serif;
+    /* font-family: "Montserrat", sans-serif; */
+    font-family: "Consolas", 'Courier New', monospace;
     font-optical-sizing: auto;
     font-style: normal;
     color: aliceblue;
-    background-color: black;
+    background-color: #273136;
+}
+
+.htmlSection h1 {
+    text-align: center;
+    color:#DD7BDF;
+}
+
+.secRow {
+    display: flex;
+    border: 1px red solid;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px blue solid; */
+    height: 450px;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 25px;
+}
+
+.cardTitle {
+    position: relative;
+    display: flex;
+    border: 1px #F9F8F6 solid;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    vertical-align: center;
+    height: 50px;
+    width: 275px;
+    top: 25px;
+
+}
+
+.cardTitle h2 {
+    color: #DD7BDF;
+}
+
+.cardContent {
+    border: 1px #F9F8F6 dashed;
+    /* display: flex; */
+    justify-content: center;
+    /* align-items: flex-end; */
+    height: 450px;
+    width: 300px;
+}
+
+/* .cardContent {
+    align-items: flex-end;
+    j
+} */
+
+.cardContent p {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin: 10px 15px;
+    color: #DD7BDF;
+}
+
+.scriptDisplay {
+    border-radius: 5px;
+    width: 280px;
+    margin: 0px 10px;
+    background-image: linear-gradient(to bottom,#7E4680, #DD7BDF);
+    margin-bottom: 10px;
+}
+.scriptDisplay p {
+      color: #F9F8F6;
+      background: transparent;
 }
 
 .boilerplateEx {
-    font-size: 1.5em;
+    /* font-size: 1.5em; */
     font-style: italic;
 }
 
 .elTag {
     color: grey;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 
 .elName {
     color:blue;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }
 
 .elAttr {
@@ -29,8 +110,20 @@
 
 .lvlOneTab {
     margin-left: 20px;
+    /* display: flex; */
 }
 
 .lvlTwoTab {
     margin-left: 40px;
+}
+
+.headerEl {
+    margin: 0;
+    display: inline-block;
+    /* align-items: center;
+    vertical-align: middle; */
+}
+
+#orange-text {
+    color: orange;
 }
