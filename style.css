@@ -8,15 +8,63 @@
 }
 
 .htmlSection h1 {
-    text-align: center;
+    /* text-align: center; */
     color:#DD7BDF;
 }
 
+.htmlSecHead {
+    text-align: center;
+}
+
+.htmlSecHead h1{
+    margin-bottom: 0;
+}
 .secRow {
     display: flex;
-    border: 1px red solid;
+    /* border: 1px red solid; */
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.resourcesTab {
+    display: flex;
+    /* border: red 1px solid; */
+}
+.resourceLinks {
+    display: none;
+    background-image: linear-gradient(to bottom,#7E4680, #DD7BDF);
+    /* position: absolute; */
+    justify-content: center;
+    align-items: center;
+    /* border: red 1px solid; */
+}
+
+.resourceLinks:hover {
+    display: flex;
+}
+
+ .resourceLinks li {
+    list-style-type: none;
+    background: transparent;
+ }
+
+.resourceHead {
+    /* transform: rotate(-90deg); */
+    display: flex;
+    /* border: red 1px solid; */
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.resourceHead h3{
+    transform: rotate(-90deg);
+    /* border: red 1px solid; */
+    
+}
+
+.resourceHead:hover + .resourceLinks{
+    display: flex;
 }
 
 .cardContainer {
@@ -82,6 +130,22 @@
       color: #F9F8F6;
       background: transparent;
       padding: 10px;
+}
+
+.sdTopList {
+    padding-top: 15px;
+}
+
+.sdContent {
+    color: #F9F8F6;
+    background: transparent;
+    /* padding: 10px; */
+}
+
+.sdCmd {
+    /* font-style: italic; */
+    font-weight: bolder;
+    color: greenyellow;
 }
 
 .boilerplateEx {
